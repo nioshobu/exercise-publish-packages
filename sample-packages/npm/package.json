@@ -1,3 +1,5 @@
 {
-  "your": "json config here"
+  "scripts": {
+    "test": "echo test"
+  }
 }
