@@ -2,7 +2,7 @@ name: Release NPM package
 
 on:
   release:
-    [created]
+    types: [created]
   
 jobs:
   build:
