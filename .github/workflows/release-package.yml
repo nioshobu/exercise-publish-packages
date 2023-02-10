@@ -20,6 +20,9 @@ jobs:
 
   publish-gpr:
     needs: build
+    defaults:
+      run:
+        working-directory: sample-packages/npm
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
