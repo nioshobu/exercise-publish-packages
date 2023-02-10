@@ -1,5 +1,11 @@
 {
   "scripts": {
     "test": "echo test"
-  }
+  },
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
